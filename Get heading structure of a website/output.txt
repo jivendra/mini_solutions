@@ -4,46 +4,46 @@ Service
   Motivation
 
   Service resources
-     Cloud-native service discovery
+      Cloud-native service discovery
 
   Defining a Service
-     Services without selectors
-         Custom EndpointSlices
-         Accessing a Service without a selector
-     EndpointSlices
-     Endpoints
-         Over-capacity endpoints
-     Application protocol
+      Services without selectors
+           Custom EndpointSlices
+           Accessing a Service without a selector
+      EndpointSlices
+      Endpoints
+           Over-capacity endpoints
+      Application protocol
 
   Multi-Port Services
 
   Choosing your own IP address
 
   Discovering services
-     Environment variables
-     DNS
+      Environment variables
+      DNS
 
   Headless Services
-     With selectors
-     Without selectors
+      With selectors
+      Without selectors
 
   Publishing Services (ServiceTypes)
-     Type NodePort
-         Choosing your own port
-         Custom IP address configuration for <code>type: NodePort</code> Services
-     Type LoadBalancer
-         Load balancers with mixed protocol types
-         Disabling load balancer NodePort allocation
-         Specifying class of load balancer implementation
-         Internal load balancer
-         TLS support on AWS
-         PROXY protocol support on AWS
-         ELB Access Logs on AWS
-         Connection Draining on AWS
-         Other ELB annotations
-         Network Load Balancer support on AWS
-     Type ExternalName
-     External IPs
+      Type NodePort
+           Choosing your own port
+           Custom IP address configuration for <code>type: NodePort</code> Services
+      Type LoadBalancer
+           Load balancers with mixed protocol types
+           Disabling load balancer NodePort allocation
+           Specifying class of load balancer implementation
+           Internal load balancer
+           TLS support on AWS
+           PROXY protocol support on AWS
+           ELB Access Logs on AWS
+           Connection Draining on AWS
+           Other ELB annotations
+           Network Load Balancer support on AWS
+      Type ExternalName
+      External IPs
 
   Session stickiness
 

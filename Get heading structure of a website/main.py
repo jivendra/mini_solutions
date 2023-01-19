@@ -13,6 +13,9 @@ for title in titles:
     match heading:
         case "h1": spacing = "\n"
         case "h2": spacing = "\n  "
-        case "h3": spacing = "     "
-        case "h4": spacing = "         "
+        case "h3": spacing = "      "
+        case "h4": spacing = "           "
+        case "h5": spacing = "                "
+        case "h6": spacing = "                      "
     f.writelines(spacing + str(content.group()[1:-1]) + "\n")
+f.close()

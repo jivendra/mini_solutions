@@ -1,0 +1,2 @@
+This program gives the Heading structure of a website with proper indentation to make it easy to understand. 
+Install [beautifulsoap library](https://www.crummy.com/software/BeautifulSoup/bs4/doc/#installing-beautiful-soup) to use this program.
