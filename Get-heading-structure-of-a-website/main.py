@@ -13,7 +13,7 @@ titles = bs.find_all(['h1', 'h2','h3','h4','h5','h6'])
 f = open('./output.txt', 'w+')
 for title in titles:
     try:
-        content = re.search(">\\n*\\s*.+\\s*\\n*<",str(title))
+        content = re.search(">\\s*\\n*\\s*.+\\s*\\n*\\s*<",str(title))
         heading = re.search("<..",str(title)).group()[1:]
         spacing = ""
         match heading:
